@@ -22,7 +22,6 @@ class CreateTrainsTable extends Migration
             $table->integer('code_train');
             $table->tinyInteger('carriage_number');
             $table->boolean('hours_delay');
-            $table->boolean('hours_delay');
             $table->boolean('deleted');
             $table->timestamps();
         });
